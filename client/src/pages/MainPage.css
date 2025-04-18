@@ -1,0 +1,24 @@
+.form-container{
+    flex-direction: column;
+    display: flex;
+    width: 400px;
+    padding: 30px;
+    font-family: serif;
+}
+
+.field{
+    margin-bottom:6px;
+    margin-left: 5px;
+}
+
+.load-button{
+    margin-left: 5px;
+   
+}
+
+.chart-container{
+    width: 90%;
+    max-width: 900px;
+    height: 400px;
+    margin-left: 20px ;
+}
