@@ -17,10 +17,11 @@ cd AWS-CPU-Monitor
 Navigate to the server directory. 
 Add the AWS secret key to the .env file:
 ```
-WS_SECRET_KEY=<your_secret_key>
+WS_SECRET_KEY=<the_secret_key>
+```
 ```
 npm install
-
+```
 ### 3. Frontend dependencies installation
 
 Navigate to the client directory.
