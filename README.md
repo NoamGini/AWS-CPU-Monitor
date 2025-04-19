@@ -10,7 +10,7 @@ Follow these steps to get the application running:
 
 ```bash
 git clone https://github.com/NoamGini/AWS-CPU-Monitor.git
-cd <your_project_directory>
+cd AWS-CPU-Monitor
 ```
 ### 2. Backend Configuration and dependencies installation
 
@@ -19,13 +19,13 @@ Add the AWS secret key to the .env file:
 ```
 WS_SECRET_KEY=<your_secret_key>
 ```
-npm install express cors dotenv aws-sdk path
+npm install
 
 ### 3. Frontend dependencies installation
 
 Navigate to the client directory.
 ```
-npm install react react-router-dom axios react-chartjs-2 date-fns
+npm install
 ```
 
 ### 4. Running the Application
