@@ -20,7 +20,7 @@ app.use(express.json());
 
 AWS.config.update({
     region: process.env.AWS_REGION,
-    accessKeyId: process.env.AWS_ACCESS_KEY,
+    accessKeyId: process.env.AWS_ACCESS_ID,
     secretAccessKey: process.env.AWS_SECRET_KEY,
   });
 

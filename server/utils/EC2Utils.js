@@ -2,7 +2,6 @@ import AWS from 'aws-sdk'
 
 async function getInstanceIdByIp(ipAddress) {
    const EC2 = new AWS.EC2();  
-   console.log('the ip is', ipAddress)
    var params = {
       Filters: [
          {

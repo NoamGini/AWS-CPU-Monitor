@@ -15,7 +15,6 @@ function getStartTime(timePeriod){
     };
    
     const startTime = timeMappings[timePeriod]
-    console.log(startTime)
     return {startTime, endTime}
 }
 
